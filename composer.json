@@ -1,0 +1,30 @@
+{
+  "name": "roave/phlam",
+  "description": "PHP Lambda runner for functions as a service on AWS",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gary Hockin",
+      "email": "gary@roave.com"
+    },
+    {
+      "name": "Robert Allen",
+      "email": "rob@roave.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "@stable",
+    "php-mock/php-mock-phpunit": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phlam\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Phlam\\": "test/"
+    }
+  }
+}
